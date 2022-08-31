@@ -12,6 +12,7 @@
 body {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
+    margin: 0 auto;
 }
 
 header {
@@ -151,17 +152,17 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 230px;
+    width: 20%;
     background-color: var(--white);
     padding-top: 20px;
     margin-bottom: 40px;
 }
 
-.collection-img-item>div:first-child img {
+.item-photo img {
     width: 170px;
 }
 
-.collection-img-item>div:nth-child(2) {
+.item-txt-big {
     font-weight: 500;
     font-size: 2.4rem;
     line-height: 36px;
@@ -172,19 +173,19 @@ a {
     text-align: center;
 }
 
-.collection-img-item>div:nth-child(4) {
+.item-txt-small {
     font-weight: 200;
     font-size: 1.8rem;
     line-height: 27px;
     color: var(--black3);
 }
 
-.collection-img-item>div:nth-child(5) {
+.item-link {
     background-color: var(--brown);
     margin: 30px 0;
 }
 
-.collection-img-item>div:nth-child(5) a {
+.item-link a {
     font-size: 1.8rem;
     color: var(--white);
     display: flex;
@@ -366,12 +367,12 @@ a {
     padding-top: 60px;
 }
 
-.legacy-container>div:nth-child(2) {
+.legacy-txt {
     display: inline-block;
     text-align: center;
 }
 
-.legacy-container>div:nth-child(4) {
+.legacy-img {
     position: absolute;
     top: -45%;
     left: 35%;
